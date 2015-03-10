@@ -13,7 +13,7 @@
 
 #Route::get('/', 'WelcomeController@index');
 Route::get('/', function() {
-    return "Hello World";
+    return "Test WebHook";
 });
 
 Route::get('home', 'HomeController@index');
